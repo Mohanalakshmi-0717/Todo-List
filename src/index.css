@@ -1,0 +1,114 @@
+*{
+    background-image: url("src/assets/Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-button {
+    padding: 10px 15px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color:wheat;
+    background-image: none;
+    color: #333;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.input-button:hover{
+    background-color: rgb(232, 221, 201);
+     color: #0b0000;
+
+}
+
+.input-field{
+    display: flex;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+button.btn.btn-primary {
+    background-color:rgb(184, 230, 92)!important;
+    background-image: none !important;
+    color: black;
+    padding:10px 15px;
+    border: 2px solid black;
+}
+
+
+.todo-wrapper{
+    background-image: none !important;
+    background-color: aliceblue;
+    color:black;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+    background-color:antiquewhite; 
+}
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    margin: 8px 0;
+    background: antiquewhite;
+    border-radius: 8px;
+}
+
+
+.edit-button,.delete-button{
+    border-radius: 20px;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    background-image: none !important;
+
+}
+
+.buttons{
+    display: flex;
+    background-image: none;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.edit-button{
+    background-color: rgb(51, 201, 201);
+}
+
+.edit-button:hover{
+    background-color: antiquewhite;
+}
+
+.delete-button{
+    background-color: rgb(207, 25, 25);
+}
+
+.delete-button:hover{
+    background-color: antiquewhite;
+}
+
+.data{
+    background-image: none !important;
+    padding: 10px;
+   
+}
+
+
+
+
